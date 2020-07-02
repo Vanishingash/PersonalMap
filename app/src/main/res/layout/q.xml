@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3" />
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:text="景点"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3" />
+
+    <TextView
+        android:id="@+id/text_goods_name"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:text="描述"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3" />
+
+    <TextView
+        android:id="@+id/text_codeBar"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:text="时间"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3" />
+
+    <TextView
+        android:id="@+id/text_num"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="10dip"
+        android:singleLine="true"
+        android:text="@string/dianya"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3" />
+
+</LinearLayout>

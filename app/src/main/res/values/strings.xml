@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PersonalMap</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="dianya">dianya</string>
+    <string name="shidu">shidu</string>
+    <string name="wendu">wendu</string>
+    <string name="time">time</string>
+    <string name="data">data</string>
+</resources>
